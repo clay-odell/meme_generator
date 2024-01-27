@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Meme Generator Machine</title>
+</head>
+<body>
+    <h1>Meme Generator Machine</h1>
+    <form id="form" action="#">
+    <fieldset>
+        <legend>Meme Generator Machine</legend>
+    <div class="container">
+        <div class="image">
+            <label>Image URL : </label>
+            <input type="url" id="imageURL" placeholder="www.url.com" required>
+        </div>
+        <div>
+           
+            <label for="topText">Top Text :</label>
+            <input type="text" id="topText" placeholder="Insert top text here..." required>
+        </div>
+        <div>
+            <label for="bottomText">Bottom Text :</label>
+            <input type="text" id="bottomText" placeholder="Insert bottom text here..." required>
+        </div>
+        <button type="submit" id="memeGenerate">GENERATE MEME</button>
+    </div>
+    </fieldset>
+    </form>
+    <div id="newMeme"></div>
+    
+<script src="meme-generator.js"></script>
+</body>
+</html>
+<!--https://4.bp.blogspot.com/-bLtpHlEoJqg/UmbBx5ew6zI/AAAAAAAABpo/DDauMTMofPA/s1600/grinds+my+gears.png-->
